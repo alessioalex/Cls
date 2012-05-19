@@ -114,7 +114,7 @@ Bonus - for CoffeeScript fans
 -----------------------------
 ```js
 log = console.log
-Cls = require './cls'
+Cls = require 'Cls'
 
 Animal = Cls
   methods:
