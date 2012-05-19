@@ -1,6 +1,6 @@
 Cls
 --------
-An interface for classical object oriented programming in JavaScript.
+An interface for classical object oriented programming in JavaScript. [![Build Status](https://secure.travis-ci.org/alessioalex/Cls.png)](http://travis-ci.org/alessioalex/Cls)
 
 API
 ---------
@@ -66,7 +66,7 @@ You can use Cls in the browser or in a Node.js app.
 <h3>In the browser</h3>
 
 ``` html
-<script src="path/to/cls.js"></script>
+<script src="path/to/cls.min.js"></script>
 <!-- Cls() is exposed as a global var -->
 
 <script type="text/javascript">
