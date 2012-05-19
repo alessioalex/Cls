@@ -1,0 +1,26 @@
+{
+    "name": "Cls"
+  , "description": "Simple class abstraction in JavaScript"
+  , "version": "0.0.1"
+  , "homepage": "http://github.com/alessioalex/Cls"
+  , "author": "Alexandru Vladutu <alexandru.vladutu@gmail.com>"
+  , "main": "./cls.js"
+  , "keywords": ["class", "prototype", "inheritance", "oop"]
+  , "repository": {
+      "type" : "git"
+    , "url"  : "https://github.com/alessioalex/Cls.git"
+  }
+  , "engines": {
+      "node": ">= 0.4.0"
+  }
+  , "devDependencies": {
+      "mocha"     : "1.0.x"
+    , "uglify-js" : "1.2.x"
+    , "jshint"    : "0.7.x"
+  }
+  , "scripts": {
+      "test"    : "node_modules/.bin/mocha -u qunit"
+    , "build"   : "npm run-script jshint && node src/build.js"
+    , "jshint"  : "node_modules/.bin/jshint src/cls.js"
+  }
+}
